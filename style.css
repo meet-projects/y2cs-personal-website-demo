@@ -1,0 +1,98 @@
+body {
+	padding: 0;
+  	margin: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	background-image: url("scenic.jpg");
+	background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	
+}
+
+
+.highlight:hover{
+	color: yellow;
+}
+
+table {
+	margin: auto;
+	padding: 10;
+}
+
+h1 {
+	animation-duration: 2s;
+  	animation-name: slidein;
+  	text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes fadein {
+  from {
+  	margin-top: 100px;
+    opacity: 0; 
+  }
+
+50% {
+  margin-top: 100px;
+    opacity: 0; 
+}
+
+  to {
+  	margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+
+
+.likes {
+	background-color: white;
+	border-radius: 5px;
+	margin: auto;
+	width:200px;
+	animation-duration: 3.5s;
+  	animation-name: fadein;
+}
+
+.bubble {
+	border: 3px solid lightblue;
+	border-radius: 5px;
+}
+
+#title{
+	height: 250px;
+	overflow:hidden;
+	
+}
+
+#meet{
+	background-color: lightblue;
+	padding: 10px;
+	border-radius: 5px;
+	height: 150px;
+}
+
+#passions{
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+#nickname{
+	width:400px;
+	cursor: pointer;
+}
+
+
+
